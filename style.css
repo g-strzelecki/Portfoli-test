@@ -108,10 +108,12 @@ body
 .tile5
 {
     margin: 10px;
-    width: 480px;
-    height: 304px;
+    width: 420px;
+    height: 244px;
     background-color: #666666;
-    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+    padding: 30px; 
 }
 
 .yt
