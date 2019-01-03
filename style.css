@@ -1,34 +1,29 @@
-body
-{
+body {
     background-color: #303030;
     color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
 }
 
-#container
-{
+#container {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
 }
 
-.rectangle
-{
+.rectangle {
     width: 960px;
     margin: 20px;
     text-align: center;
 }
 
-.square
-{
+.square {
     width: 50%;
     float: left;
 }
 
-#logo
-{
+#logo {
     float: left;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
@@ -38,8 +33,7 @@ body
     text-align: left;
 }
 
-#zegar
-{
+#clock {
     float: left;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
@@ -48,8 +42,7 @@ body
     text-align: left;
 }
 
-.tile1
-{
+.tile1 {
     margin: 10px;
     width: 230px;
     height: 142px;
@@ -58,13 +51,11 @@ body
     text-align: center;
 }
 
-.tile1:hover
-{
+.tile1:hover {
     background-color: #3084c2;
 }
 
-.tile2
-{
+.tile2 {
     margin: 10px;
     width: 230px;
     height: 142px;
@@ -73,13 +64,11 @@ body
     text-align: center;
 }
 
-.tile2:hover
-{
+.tile2:hover {
     background-color: #555555;
 }
 
-.tile3
-{
+.tile3 {
     margin: 10px;
     width: 230px;
     height: 142px;
@@ -88,13 +77,11 @@ body
     text-align: center;
 }
 
-.tile3:hover
-{
+.tile3:hover {
     background-color: #82b637;
 }
 
-.tile4
-{
+.tile4 {
     margin: 10px;
     width: 420px;
     height: 82px;
@@ -105,19 +92,17 @@ body
     line-height: 150%;
 }
 
-.tile5
-{
+.tile5 {
     margin: 10px;
     width: 420px;
     height: 244px;
     background-color: #666666;
     text-align: justify;
     font-size: 20px;
-    padding: 30px; 
+    padding: 30px;
 }
 
-.yt
-{
+.yt {
     margin: 10px;
     width: 105px;
     height: 142px;
@@ -125,13 +110,11 @@ body
     float: left;
 }
 
-.yt:hover
-{
+.yt:hover {
     background-color: #c83237;
 }
 
-.fb
-{
+.fb {
     margin: 10px;
     width: 105px;
     height: 142px;
@@ -139,13 +122,11 @@ body
     float: left;
 }
 
-.fb:hover
-{
+.fb:hover {
     background-color: #3557c2;
 }
 
-.gplus
-{
+.gplus {
     margin: 10px;
     width: 105px;
     height: 142px;
@@ -153,13 +134,11 @@ body
     float: left;
 }
 
-.gplus:hover
-{
+.gplus:hover {
     background-color: #c84222;
 }
 
-.tw
-{
+.tw {
     margin: 10px;
     width: 105px;
     height: 142px;
@@ -167,7 +146,27 @@ body
     float: left;
 }
 
-.tw:hover
-{
+.tw:hover {
     background-color: #2084c2;
+}
+
+a.tilelink {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
+
+a.tilelinkhtml5 {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.sociallink {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 105px;
+    height: 142px;
 }
